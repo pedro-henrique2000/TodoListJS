@@ -5,8 +5,8 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #f6d365, #fda085);
-  color: white;
+  background-color: #e9e3e6;
+  color: black;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
@@ -33,7 +33,7 @@ form button {
 }
 
 form button {
-  color: #d88771;
+  color: #a1b5d8;
   background-color: white;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -41,7 +41,7 @@ form button {
 
 form button:hover {
   color: white;
-  background-color: #d88771;
+  background-color: #a1b5d8;
 }
 
 .todo-container {
@@ -112,7 +112,7 @@ select {
   appearance: none;
   border: none;
   outline: none;
-  color: #d88771;
+  color: #a1b5d8;
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
@@ -128,7 +128,7 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background-color: #d88771;
+  background-color: #a1b5d8;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -138,5 +138,5 @@ select {
 
 .select:hover::after {
   background: white;
-  color: #d88771;
+  color: #a1b5d8;
 }
